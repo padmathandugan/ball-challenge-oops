@@ -64,8 +64,4 @@ public class ProcessingBallsImpl implements ProcessingBalls{
         return circleDomainList;
 
     }
-
-    private void drawCircle(CircleDomain circleDomain) {
-        pApplet.ellipse(speed, SketchConstants.HEIGHT / circleDomain.getDivisor(), 10, 10);
-        }
 }
